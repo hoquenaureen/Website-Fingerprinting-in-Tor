@@ -1,0 +1,19 @@
+hidden_layer_sizes:
+  - [100, 20]
+  - [150, 20]
+solver:
+  - 'sgd'
+  - 'lbfgs'
+alpha:
+  - 0.1
+  - 0.03
+  - 0.01
+activation:
+  - 'logistic'
+  - 'relu'
+tol:
+  - 0.001
+  - 0.0001
+learning_rate:
+  - 'adaptive'
+  - 'constant'

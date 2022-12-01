@@ -1,0 +1,14 @@
+kernel:
+  - linear
+  - poly
+  - rbf
+  - sigmoid
+C:
+  - 1
+  - 300
+  - 500
+gamma:
+  - "scale"
+  - "auto"
+  - 0.005
+  - 0.0005
